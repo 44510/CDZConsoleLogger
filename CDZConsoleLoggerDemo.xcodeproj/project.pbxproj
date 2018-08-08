@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DABFF60C211B54CA009EAB07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DABFF60B211B54CA009EAB07 /* AppDelegate.m */; };
+		DABFF60F211B54CA009EAB07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DABFF60E211B54CA009EAB07 /* ViewController.m */; };
+		DABFF612211B54CA009EAB07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DABFF610211B54CA009EAB07 /* Main.storyboard */; };
+		DABFF614211B54CC009EAB07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DABFF613211B54CC009EAB07 /* Assets.xcassets */; };
+		DABFF617211B54CC009EAB07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DABFF615211B54CC009EAB07 /* LaunchScreen.storyboard */; };
+		DABFF61A211B54CC009EAB07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DABFF619211B54CC009EAB07 /* main.m */; };
+		DABFF633211B5528009EAB07 /* CDZConsoleLoggerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DABFF623211B5528009EAB07 /* CDZConsoleLoggerViewController.m */; };
+		DABFF634211B5528009EAB07 /* CDZConsoleLoggerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DABFF625211B5528009EAB07 /* CDZConsoleLoggerCell.m */; };
+		DABFF635211B5528009EAB07 /* CDZConsoleLoggerDashboard.m in Sources */ = {isa = PBXBuildFile; fileRef = DABFF626211B5528009EAB07 /* CDZConsoleLoggerDashboard.m */; };
+		DABFF636211B5528009EAB07 /* CDZConsoleLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = DABFF627211B5528009EAB07 /* CDZConsoleLogger.m */; };
+		DABFF637211B5528009EAB07 /* CDZConsoleLoggerTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DABFF629211B5528009EAB07 /* CDZConsoleLoggerTableView.m */; };
+		DABFF638211B5528009EAB07 /* CDZConsoleLoggerKeywordFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = DABFF62A211B5528009EAB07 /* CDZConsoleLoggerKeywordFilter.m */; };
+		DABFF639211B5528009EAB07 /* CDZConsoleLoggerCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DABFF62B211B5528009EAB07 /* CDZConsoleLoggerCellItem.m */; };
+		DABFF63A211B5528009EAB07 /* CDZConsoleLoggerLevelFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = DABFF630211B5528009EAB07 /* CDZConsoleLoggerLevelFilter.m */; };
+		DABFF63B211B5528009EAB07 /* CDZConsoleLoggerMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = DABFF632211B5528009EAB07 /* CDZConsoleLoggerMessage.m */; };
+		DABFF63E211B5568009EAB07 /* UIView+CDZConsoleLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = DABFF63D211B5568009EAB07 /* UIView+CDZConsoleLogger.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DABFF607211B54CA009EAB07 /* CDZConsoleLoggerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDZConsoleLoggerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DABFF60A211B54CA009EAB07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DABFF60B211B54CA009EAB07 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DABFF60D211B54CA009EAB07 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DABFF60E211B54CA009EAB07 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DABFF611211B54CA009EAB07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DABFF613211B54CC009EAB07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DABFF616211B54CC009EAB07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DABFF618211B54CC009EAB07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DABFF619211B54CC009EAB07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DABFF621211B5528009EAB07 /* CDZConsoleLoggerCellItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDZConsoleLoggerCellItem.h; sourceTree = "<group>"; };
+		DABFF622211B5528009EAB07 /* CDZConsoleLoggerKeywordFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDZConsoleLoggerKeywordFilter.h; sourceTree = "<group>"; };
+		DABFF623211B5528009EAB07 /* CDZConsoleLoggerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDZConsoleLoggerViewController.m; sourceTree = "<group>"; };
+		DABFF624211B5528009EAB07 /* CDZConsoleLoggerLevelFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDZConsoleLoggerLevelFilter.h; sourceTree = "<group>"; };
+		DABFF625211B5528009EAB07 /* CDZConsoleLoggerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDZConsoleLoggerCell.m; sourceTree = "<group>"; };
+		DABFF626211B5528009EAB07 /* CDZConsoleLoggerDashboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDZConsoleLoggerDashboard.m; sourceTree = "<group>"; };
+		DABFF627211B5528009EAB07 /* CDZConsoleLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDZConsoleLogger.m; sourceTree = "<group>"; };
+		DABFF628211B5528009EAB07 /* CDZConsoleLoggerMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDZConsoleLoggerMessage.h; sourceTree = "<group>"; };
+		DABFF629211B5528009EAB07 /* CDZConsoleLoggerTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDZConsoleLoggerTableView.m; sourceTree = "<group>"; };
+		DABFF62A211B5528009EAB07 /* CDZConsoleLoggerKeywordFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDZConsoleLoggerKeywordFilter.m; sourceTree = "<group>"; };
+		DABFF62B211B5528009EAB07 /* CDZConsoleLoggerCellItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDZConsoleLoggerCellItem.m; sourceTree = "<group>"; };
+		DABFF62C211B5528009EAB07 /* CDZConsoleLoggerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDZConsoleLoggerViewController.h; sourceTree = "<group>"; };
+		DABFF62D211B5528009EAB07 /* CDZConsoleLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDZConsoleLogger.h; sourceTree = "<group>"; };
+		DABFF62E211B5528009EAB07 /* CDZConsoleLoggerDashboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDZConsoleLoggerDashboard.h; sourceTree = "<group>"; };
+		DABFF62F211B5528009EAB07 /* CDZConsoleLoggerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDZConsoleLoggerCell.h; sourceTree = "<group>"; };
+		DABFF630211B5528009EAB07 /* CDZConsoleLoggerLevelFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDZConsoleLoggerLevelFilter.m; sourceTree = "<group>"; };
+		DABFF631211B5528009EAB07 /* CDZConsoleLoggerTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDZConsoleLoggerTableView.h; sourceTree = "<group>"; };
+		DABFF632211B5528009EAB07 /* CDZConsoleLoggerMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDZConsoleLoggerMessage.m; sourceTree = "<group>"; };
+		DABFF63C211B5567009EAB07 /* UIView+CDZConsoleLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CDZConsoleLogger.h"; sourceTree = "<group>"; };
+		DABFF63D211B5568009EAB07 /* UIView+CDZConsoleLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CDZConsoleLogger.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DABFF604211B54CA009EAB07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DABFF5FE211B54CA009EAB07 = {
+			isa = PBXGroup;
+			children = (
+				DABFF609211B54CA009EAB07 /* CDZConsoleLoggerDemo */,
+				DABFF608211B54CA009EAB07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DABFF608211B54CA009EAB07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DABFF607211B54CA009EAB07 /* CDZConsoleLoggerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DABFF609211B54CA009EAB07 /* CDZConsoleLoggerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DABFF620211B5528009EAB07 /* CDZConoleLogger */,
+				DABFF60A211B54CA009EAB07 /* AppDelegate.h */,
+				DABFF60B211B54CA009EAB07 /* AppDelegate.m */,
+				DABFF60D211B54CA009EAB07 /* ViewController.h */,
+				DABFF60E211B54CA009EAB07 /* ViewController.m */,
+				DABFF610211B54CA009EAB07 /* Main.storyboard */,
+				DABFF613211B54CC009EAB07 /* Assets.xcassets */,
+				DABFF615211B54CC009EAB07 /* LaunchScreen.storyboard */,
+				DABFF618211B54CC009EAB07 /* Info.plist */,
+				DABFF619211B54CC009EAB07 /* main.m */,
+			);
+			path = CDZConsoleLoggerDemo;
+			sourceTree = "<group>";
+		};
+		DABFF620211B5528009EAB07 /* CDZConoleLogger */ = {
+			isa = PBXGroup;
+			children = (
+				DABFF621211B5528009EAB07 /* CDZConsoleLoggerCellItem.h */,
+				DABFF62B211B5528009EAB07 /* CDZConsoleLoggerCellItem.m */,
+				DABFF622211B5528009EAB07 /* CDZConsoleLoggerKeywordFilter.h */,
+				DABFF62A211B5528009EAB07 /* CDZConsoleLoggerKeywordFilter.m */,
+				DABFF62C211B5528009EAB07 /* CDZConsoleLoggerViewController.h */,
+				DABFF623211B5528009EAB07 /* CDZConsoleLoggerViewController.m */,
+				DABFF624211B5528009EAB07 /* CDZConsoleLoggerLevelFilter.h */,
+				DABFF630211B5528009EAB07 /* CDZConsoleLoggerLevelFilter.m */,
+				DABFF62D211B5528009EAB07 /* CDZConsoleLogger.h */,
+				DABFF627211B5528009EAB07 /* CDZConsoleLogger.m */,
+				DABFF631211B5528009EAB07 /* CDZConsoleLoggerTableView.h */,
+				DABFF629211B5528009EAB07 /* CDZConsoleLoggerTableView.m */,
+				DABFF62E211B5528009EAB07 /* CDZConsoleLoggerDashboard.h */,
+				DABFF626211B5528009EAB07 /* CDZConsoleLoggerDashboard.m */,
+				DABFF62F211B5528009EAB07 /* CDZConsoleLoggerCell.h */,
+				DABFF625211B5528009EAB07 /* CDZConsoleLoggerCell.m */,
+				DABFF628211B5528009EAB07 /* CDZConsoleLoggerMessage.h */,
+				DABFF632211B5528009EAB07 /* CDZConsoleLoggerMessage.m */,
+				DABFF63C211B5567009EAB07 /* UIView+CDZConsoleLogger.h */,
+				DABFF63D211B5568009EAB07 /* UIView+CDZConsoleLogger.m */,
+			);
+			path = CDZConoleLogger;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DABFF606211B54CA009EAB07 /* CDZConsoleLoggerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DABFF61D211B54CC009EAB07 /* Build configuration list for PBXNativeTarget "CDZConsoleLoggerDemo" */;
+			buildPhases = (
+				DABFF603211B54CA009EAB07 /* Sources */,
+				DABFF604211B54CA009EAB07 /* Frameworks */,
+				DABFF605211B54CA009EAB07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CDZConsoleLoggerDemo;
+			productName = CDZConsoleLoggerDemo;
+			productReference = DABFF607211B54CA009EAB07 /* CDZConsoleLoggerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DABFF5FF211B54CA009EAB07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Nemocdz;
+				TargetAttributes = {
+					DABFF606211B54CA009EAB07 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = DABFF602211B54CA009EAB07 /* Build configuration list for PBXProject "CDZConsoleLoggerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DABFF5FE211B54CA009EAB07;
+			productRefGroup = DABFF608211B54CA009EAB07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DABFF606211B54CA009EAB07 /* CDZConsoleLoggerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DABFF605211B54CA009EAB07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABFF617211B54CC009EAB07 /* LaunchScreen.storyboard in Resources */,
+				DABFF614211B54CC009EAB07 /* Assets.xcassets in Resources */,
+				DABFF612211B54CA009EAB07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DABFF603211B54CA009EAB07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABFF637211B5528009EAB07 /* CDZConsoleLoggerTableView.m in Sources */,
+				DABFF63E211B5568009EAB07 /* UIView+CDZConsoleLogger.m in Sources */,
+				DABFF635211B5528009EAB07 /* CDZConsoleLoggerDashboard.m in Sources */,
+				DABFF60F211B54CA009EAB07 /* ViewController.m in Sources */,
+				DABFF63B211B5528009EAB07 /* CDZConsoleLoggerMessage.m in Sources */,
+				DABFF634211B5528009EAB07 /* CDZConsoleLoggerCell.m in Sources */,
+				DABFF61A211B54CC009EAB07 /* main.m in Sources */,
+				DABFF636211B5528009EAB07 /* CDZConsoleLogger.m in Sources */,
+				DABFF639211B5528009EAB07 /* CDZConsoleLoggerCellItem.m in Sources */,
+				DABFF638211B5528009EAB07 /* CDZConsoleLoggerKeywordFilter.m in Sources */,
+				DABFF63A211B5528009EAB07 /* CDZConsoleLoggerLevelFilter.m in Sources */,
+				DABFF633211B5528009EAB07 /* CDZConsoleLoggerViewController.m in Sources */,
+				DABFF60C211B54CA009EAB07 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DABFF610211B54CA009EAB07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DABFF611211B54CA009EAB07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DABFF615211B54CC009EAB07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DABFF616211B54CC009EAB07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DABFF61B211B54CC009EAB07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DABFF61C211B54CC009EAB07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DABFF61E211B54CC009EAB07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CDZConsoleLoggerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nemocdz.CDZConsoleLoggerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DABFF61F211B54CC009EAB07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CDZConsoleLoggerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nemocdz.CDZConsoleLoggerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DABFF602211B54CA009EAB07 /* Build configuration list for PBXProject "CDZConsoleLoggerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABFF61B211B54CC009EAB07 /* Debug */,
+				DABFF61C211B54CC009EAB07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DABFF61D211B54CC009EAB07 /* Build configuration list for PBXNativeTarget "CDZConsoleLoggerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABFF61E211B54CC009EAB07 /* Debug */,
+				DABFF61F211B54CC009EAB07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DABFF5FF211B54CA009EAB07 /* Project object */;
+}
